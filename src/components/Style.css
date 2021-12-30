@@ -1,0 +1,41 @@
+.detailbox{
+   
+    background: red;
+    border: 2px solid black;
+    border-radius: 18px;
+    font-weight: 600;
+    height: 45px;
+    width: 500px;
+    padding-top: 18px;
+    margin: 20px 50px 20px 50px;
+}
+.DbDisplay{
+    margin-top: 50px;
+    border: 3px solid black;
+    background: rgb(42, 195, 149);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+body{
+    background-image:linear-gradient(180deg, rgb(64, 185, 90), rgb(60, 193, 233),white) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.inputfield{
+    margin: 10px 5px;
+    background:rgb(77, 158, 158);
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+
+}
+.submit-btn{
+    width: 200px;
+    font-weight: 600;
+    border-radius: 20px;
+    background:rgb(51, 165, 112);
+    height: 35px;
+}
